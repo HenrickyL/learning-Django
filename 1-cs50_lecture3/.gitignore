@@ -1,0 +1,49 @@
+# Arquivos de sistema
+*.DS_Store
+*.idea/
+*.vscode/
+*.swp
+*.swo
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.coverage
+*.log
+*.pot
+
+# Ambiente virtual
+venv/
+env/
+ENV/
+.virtualenv/
+
+# Django
+*.sqlite3
+db.sqlite3
+/media/
+/staticfiles/
+/static/
+/*.log
+
+# Arquivos de migração (opcional, se quiser ignorar)
+*/migrations/__pycache__/
+*/migrations/*.py
+
+# Configurações locais
+local_settings.py
+.env
+
+# Testes
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+
+# Arquivos de compilação
+*.egg-info/
+dist/
+build/
