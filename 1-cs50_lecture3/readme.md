@@ -2,7 +2,8 @@
 
 ## Installation
 
-1. `django-admin startproject Project_name`
+1. Create Project: `django-admin startproject Project_name`
+2. Create App: `python manage.py startapp app_name`
 
 ---
 
