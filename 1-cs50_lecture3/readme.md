@@ -4,6 +4,7 @@
 
 1. Create Project: `django-admin startproject Project_name`
 2. Create App: `python manage.py startapp app_name`
+3. Run server: `python manage.py runserver`
 
 ---
 
