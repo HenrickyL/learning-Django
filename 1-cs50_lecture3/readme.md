@@ -1,7 +1,8 @@
 # Learning Django - CS50 - 2021
 
+## Installation
 
-
+1. `django-admin startproject Project_name`
 
 ---
 
