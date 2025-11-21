@@ -3,8 +3,7 @@ import datetime
 # Create your views here.
 def index(request):
     now = datetime.datetime.now()
-    cond = now.month == 12 and (now.day >=1 and now.day <= 31)
-    res = "Yes" if cond else "No"
+    cond = now.month == 1 and (now.day== 1)
     return render(request, "newyear/index.html",{
-        "res": res
+        "newyear": cond
     })
