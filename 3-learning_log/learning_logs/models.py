@@ -17,3 +17,6 @@ class Entry(models.Model):
     
     class Meta: ## add plural name
         verbose_name_plural = 'entries'
+        
+    def __str__(self):
+        return f"{self.text[:50]}..."
