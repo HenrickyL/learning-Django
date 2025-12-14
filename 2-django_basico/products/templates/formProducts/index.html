@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserir produto</title>
+</head>
+<body>
+    <h1>Inserir produto</h1>\
+    <form action="{% url 'post_product' %}" method="post">{% csrf_token %}
+        <input type="text" name="name" placeholder="nome do produto">
+        <input type="text" type="number" name="count" placeholder="quantidade">
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
