@@ -4,8 +4,9 @@
 * `django-admin startproject learning_log`
 * Migrate database: `python manage.py migrate`
 * Run server: `python manage.py runserver`
-* Criar projeto: `python manage.py startapp name_app`
-  - Convenção d app principal ser o nome do projeto no plural.
+* Criar App: `python manage.py startapp name_app`
+  - Convenção do app principal ser o nome do projeto no plural.
+* Criar a migration do App: `python .\manage.py makemigrations name_app`
 
 
 ---
