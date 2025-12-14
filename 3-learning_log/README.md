@@ -8,7 +8,11 @@
   - Convenção do app principal ser o nome do projeto no plural.
 * Criar a migration do App: `python .\manage.py makemigrations name_app`
 * Criar admin: `python manage.py createsuperuser`
+  
 
+
+## Docs:
+* [ForeignKey](https://docs.djangoproject.com/en/2.2/ref/models/fields/#arguments)
 
 ---
 Ref: [Curso Django - Jefferson Lobato](ref: https://www.youtube.com/watch?v=ZNFVFTqaL60&list=PLLVddSbilcumgeyk0z6ko5U_FYPfbRO2C&index=1)
