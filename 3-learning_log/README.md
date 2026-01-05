@@ -1,4 +1,4 @@
-# 
+# Learning logs
 
 ## commands
 * `django-admin startproject learning_log`
